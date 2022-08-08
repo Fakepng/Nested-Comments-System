@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { PostList } from './components/PostLists';
 import { PostProvider } from './contexts/PostContext';
+import { Post } from './components/Post';
 
 function App() {
   return (
